@@ -1,51 +1,67 @@
-<mxfile host="65bd71144e" modified="2021-02-10T14:16:23.762Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.1 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" version="14.2.4" etag="GjkcoLPxtIDh94EUtQsg" type="embed">
+<mxfile host="65bd71144e" modified="2021-02-10T17:33:43.826Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.1 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="TRaP7_y3dU4A3oHOb89c" version="14.2.4" type="embed">
     <diagram id="xGYVAaBlfo-47tVgDd7L" name="Page-1">
         <mxGraphModel dx="1130" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="SMILES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="40" height="20" as="geometry"/>
+                <mxCell id="2" value="SMILES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Latent Representation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="8">
+                <mxCell id="7" value="Latent Representation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="60" y="210" as="targetPoint"/>
+                        <mxPoint x="90" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Autoencoder&lt;br&gt;Encoder/Decoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry y="80" width="120" height="60" as="geometry"/>
+                <mxCell id="3" value="Autoencoder&lt;br&gt;Encoder/Decoder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Vetores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="230" width="40" height="20" as="geometry"/>
+                <mxCell id="8" value="Vetores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="10">
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Vetores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="190" y="40" width="40" height="20" as="geometry"/>
+                <mxCell id="10" value="GAN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="12">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="GAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="80" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="12">
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="12" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="210" y="290" as="targetPoint"/>
+                        <mxPoint x="390" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="Decoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="180" width="120" height="60" as="geometry"/>
+                <mxCell id="12" value="Decoder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="SMILES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="190" y="310" width="40" height="20" as="geometry"/>
+                <mxCell id="15" value="SMILES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="420" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Operação após o treino" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="50" width="180" height="30" as="geometry"/>
+                <mxCell id="18" value="Treino Autoencoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry y="20" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="80" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Treino GAN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="20" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="27" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="SMILES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
