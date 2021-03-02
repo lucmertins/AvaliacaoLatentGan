@@ -1,2 +1,35 @@
 Origem
 https://github.com/Dierme/latent-gan
+
+
+
+Projetos dependencia
+
+https://github.com/EBjerrum/molvecgen
+
+https://github.com/pcko1/Deep-Drug-Coder
+
+
+
+Avaliar este blog
+Master your molecule generator 2. Direct steering of conditional recurrent neural networks (cRNNs)
+https://www.cheminformania.com/master-your-molecule-generator-2-direct-steering-of-conditional-recurrent-neural-networks-crnns/
+
+
+
+
+Referencia sobre organização Anaconda
+https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
+
+
+Alguns comandos
+
+conda env remove -n ENV_NAME
+
+
+
+conda create -n molvecgen python=3.6
+
+conda env create python=3.6
+
+conda env create -f env/ddc_env.yml python=3.6
