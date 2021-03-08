@@ -21,6 +21,7 @@ https://www.cheminformania.com/master-your-molecule-generator-2-direct-steering-
 Referencia sobre organização Anaconda
 https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
 
+https://towardsdatascience.com/a-quick-and-easy-guide-to-managing-conda-environments-87bfe7bab065
 
 Alguns comandos
 
